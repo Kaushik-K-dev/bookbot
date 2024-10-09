@@ -7,7 +7,7 @@ def main():
     print(f"--- Begin report of {book_path} ---")
     print(f"{word_counter} words found in the text.")
     for entry in bookreport:
-        print(f"The character {entry["Character"]} was found {entry["Frequency"]} times.")
+        print(f"The character {entry['Character']} was found {entry['Frequency']} times.")
     print("--- End of book report ---")
 
 def get_text(path):
